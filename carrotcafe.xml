@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stylesCarrotCafe.css"?>
+<!DOCTYPE menu [
+  <!ELEMENT menu (business+)>
+  <!ELEMENT business (item+)>
+  <!ATTLIST business name CDATA #REQUIRED>
+  <!ELEMENT item (name, price, description, image, sound)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT image EMPTY>
+  <!ATTLIST image src CDATA #REQUIRED id CDATA #IMPLIED>
+  <!ELEMENT sound EMPTY>
+  <!ATTLIST sound src CDATA #REQUIRED>
+]>
+<menu>
+    <business name="Carrot Cafe">
+        <item>
+            <name>Carrot Cake</name>
+            <price>15.00</price>
+            <description>Delicious afternoon treat with complementary coffee</description>
+            <image id="gifCarrotCake" src="carrot_cake.gif"/>
+            <sound src="carrot_cake_sound.mp3"/>
+        </item>
+        <item>
+            <name>Chocolate Cake</name>
+            <price>15.00</price>
+            <description>Delicious afternoon treat with complementary coffee</description>
+            <image id="gifChocolateCake" src="chocolate_cake.gif"/>
+            <sound src="chocolate_cake_sound.mp3"/>
+        </item>
+        <item>
+            <name>Lemon Cake</name>
+            <price>15.00</price>
+            <description>Delicious afternoon treat with complementary coffee</description>
+            <image id="gifLemonCake" src="lemon_cake.gif"/>
+            <sound src="lemon_cake_sound.mp3"/>
+        </item>
+        <item>
+            <name>Orange and Poppyseed Cake</name>
+            <price>15.00</price>
+            <description>Delicious afternoon treat with complementary coffee</description>
+            <image id="gifOrangeCake" src="orange_poppyseed_cake.gif"/>
+            <sound src="orange_poppyseed_cake_sound.mp3"/>
+        </item>
+    </business>
+</menu>
