@@ -20,7 +20,7 @@
             <price>15.00</price>
             <description>Delicious afternoon treat with complementary coffee</description>
             <image id="gifCarrotCake" src="carrot_cake.gif"/>
-            <sound src="carrot_cake_sound.mp3"/>
+            <sound src="carrot_cafe_sound.mp3"/>
         </item>
         <item>
             <name>Chocolate Cake</name>
